@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <div  class="outside-container">
+        <div class="container">
+          <div class="calculator">
+            <div class="calc">
+              <div class="logo">
+                calc
+              </div>
+              <div class="themes">
+                <p>THEME</p>
+                <!-- <div class="themes_change">
+                  <div class="themes_change_buttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                  </div>
+                  <div class="themes_slider">
+                    <input type="radio" name="slider" id="themes_slider1">
+                    <input type="radio" name="slider" id="themes_slider2">
+                    <input type="radio" name="slider" id="themes_slider3">
+                </div>
+                  </div> -->
+              <div class="themes_change_bar">
+                  <div class="themes_change">
+                    <div class="themes_label">
+                      <label for="theme_one">1</label>
+                      <label for="theme_two">2</label>
+                      <label for="theme_three">3</label>
+                    </div>
+
+                    <div class="themes_slider">
+                      <button type="radio" name="theme" id="theme_one" onclick="set_theme1()">
+                      <button type="radio" name="theme" id="theme_two" onclick="set_theme2() ">
+                      <button type="radio" name="theme" id="theme_three" onclick="set_theme3()">
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+             <div class="content">
+              <div id="calculator_display">
+              </div>
+              <div class="calculator_buttons">
+                <div class="calculator_button">
+                  <button>7</button>
+                </div>
+                <div class="calculator_button">
+                  <button>8</button>
+                </div>
+                <div class="calculator_button">
+                  <button>9</button>
+                </div>
+                <div class="calculator_button_delete">
+                  <button>DEL</button>
+                </div>
+                <div class="calculator_button">
+                  <button>4</button>
+                </div>
+                <div class="calculator_button">
+                  <button>5</button>
+                </div>
+                <div class="calculator_button">
+                  <button>6</button>
+                </div>
+                <div class="calculator_button">
+                  <button>+</button>
+                </div>
+                <div class="calculator_button">
+                  <button>1</button>
+                </div>
+                <div class="calculator_button">
+                  <button>2</button>
+                </div>
+                <div class="calculator_button">
+                  <button>3</button>
+                </div>
+                <div class="calculator_button">
+                  <button>-</button>
+                </div>
+                <div class="calculator_button">
+                  <button>.</button>
+                </div>
+                <div class="calculator_button">
+                  <button>0</button>
+                </div>
+                <div class="calculator_button">
+                  <button>/</button>
+                </div>
+                <div class="calculator_button">
+                  <button>*</button>
+                </div>
+                <div class="calculator_button_reset">
+                  <button>RESET</button>
+                </div>
+                <div class="calculator_button_calculate">
+                  <button id="evaluate">=</button>
+                </div>
+            </div> 
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abigail Theuri</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
